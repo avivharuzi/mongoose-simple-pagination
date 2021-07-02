@@ -12,7 +12,7 @@
     "format": "prettier --write \"**/*.ts\"",
     "test": "jest --passWithNoTests",
     "coverage": "jest --passWithNoTests --coverage",
-    "publish:lib": "npm test && npm run build && npm publish --access public"
+    "publish:lib": "npm run build && npm publish --access public"
   },
   "files": [
     "dist"
