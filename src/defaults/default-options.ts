@@ -7,7 +7,7 @@ export const defaultOptions: Options = {
   perPage: 20,
   populate: undefined,
   projection: null,
+  queryOptions: {},
   select: '',
   sort: '',
-  queryOptions: {},
 };
