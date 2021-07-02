@@ -34,11 +34,11 @@ async function paginate<T>(
     .sort(sort)
     .lean(lean);
 
-  if (collation) {
+  if (collation !== undefined) {
     documentsQuery.collation(collation);
   }
 
-  if (populate) {
+  if (populate !== undefined) {
     documentsQuery.populate(populate);
   }
 
